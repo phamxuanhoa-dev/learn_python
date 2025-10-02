@@ -19,3 +19,13 @@ list2 = [1, 5, 7, 9, 3]
 list3 = [True, False, False]
 list4 = ["abc", 34, True, 40, "male"]
 print(list1, list2, list3, list4)
+print("\n")
+
+# type()
+print(type(list1))
+print("\n")
+
+# The list() Constructor
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+print(thislist)
+print("\n")
